@@ -126,7 +126,7 @@ header img {
   font-size: 2.5rem;
 }
 #signup-inner #singup-body {
-  padding: 100px;
+  padding: 100px 100px;
   position: relative;
   /* background: white; */
   height: 100%;
@@ -134,7 +134,7 @@ header img {
   z-index: 23;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
 #signup-header {
@@ -147,6 +147,7 @@ input {
   border: none;
   border-bottom: 1px solid white;
   font-size: 1.8rem;
+  padding: 4px;
 }
 #signup-content {
   display: flex;
@@ -157,22 +158,25 @@ input {
 }
 
 #singup-body p {
-  font-size: 1rem;
-  margin-top: 20px;
+  font-size: .8rem;
+  margin-top: 10px;
   color: #9063de;
 }
 
 button {
   margin-top: 40px;
-  padding: 10px 40px;
+  padding: 15px 60px;
   border-radius: 10px;
   background-color: #764ac4;
-  transition: 0.5s;
+  transition: 0.2s;
+  cursor: pointer;
   border: none;
+  
 }
 
 button:hover {
   background-color: #543391;
+  box-shadow: 0 0 10px rgb(118, 74, 196);
 }
 
 #cross-icon{
